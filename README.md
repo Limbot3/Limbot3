@@ -20,28 +20,39 @@
 
 <br/>
 
-<!-- ==================== MAIN GLASSMORPHIC CARD (SYNAPTARA STYLE) ==================== -->
+<!-- ==================== MAIN GLASSMORPHIC CARD (SPACIOUS VERTICAL FLOW) ==================== -->
 <table width="100%">
   <tr>
-    <td style="background-color: #060914; border: 1.2px solid #1e293b; border-radius: 14px; padding: 24px;">
-      <h3 style="color: #f8fafc; margin-top: 0; font-family: monospace;">› Hey there! I'm Limbot3 👋</h3>
-      <table width="100%" border="0">
-        <tr>
-          <td width="68%" valign="top" style="border: none;">
-            <p><b>Fullstack Engineer &amp; Systems Architect</b></p>
-            <p>
-              I am based in <b>Indonesia</b> and deeply passionate about crafting minimalist, high-performance web applications and building efficient automated workflows.
-            </p>
-            <p>
-              Currently, I'm focusing my energy on building scalable cloud services, type-safe fullstack platforms, and modular distributed systems. My technical playground revolves around <b>React, TypeScript, Go, Python, Docker,</b> and orchestrating automated pipelines to deliver reliable software.
-            </p>
-          </td>
-          <td width="32%" align="center" valign="middle" style="border: none;">
-            <img src="https://github.com/Limbot3/Limbot3/raw/main/assets/saturn.svg" width="185" alt="Planet Saturn" />
-          </td>
-        </tr>
-      </table>
+    <td style="background-color: #060914; border: 1.2px solid #1e293b; border-radius: 14px; padding: 28px;">
+      
+      <!-- Card Title & Prompt -->
+      <h3 style="color: #f8fafc; margin-top: 0; font-family: monospace; font-size: 18px;">
+        › Hey there! I'm Limbot3 👋
+      </h3>
+      
+      <!-- Role Subtitle -->
+      <h4 style="color: #38bdf8; margin-top: 6px; font-size: 16px;">
+        Fullstack Engineer &amp; Systems Architect
+      </h4>
+      
+      <!-- Spacious Full-Width Paragraphs -->
+      <p style="color: #cbd5e1; font-size: 15px; line-height: 1.7;">
+        I am based in <b>Indonesia</b> and deeply passionate about crafting minimalist, high-performance web applications and building efficient automated workflows.
+      </p>
+      
+      <p style="color: #cbd5e1; font-size: 15px; line-height: 1.7;">
+        Currently, I'm focusing my energy on building scalable cloud services, type-safe fullstack platforms, and modular distributed systems. My technical playground revolves around <b>React, TypeScript, Go, Python, Docker,</b> and orchestrating automated pipelines to deliver reliable software.
+      </p>
+
       <br/>
+
+      <!-- Planet Saturn (Prominent & Centered Ke Bawah) -->
+      <div align="center">
+        <img src="https://github.com/Limbot3/Limbot3/raw/main/assets/saturn.svg" width="240" alt="Planet Saturn" />
+      </div>
+
+      <br/>
+
       <!-- Bottom Chromatic Ribbon Gradient -->
       <div style="height: 3px; width: 100%; border-radius: 2px; background: linear-gradient(90deg, #38bdf8 0%, #818cf8 35%, #f43f5e 70%, #fbbf24 100%);"></div>
     </td>

@@ -1,6 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280" fill="none">
   <defs>
-    <!-- Background Space Gradient -->
     <linearGradient id="bg-space" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#02040a" />
       <stop offset="40%" stop-color="#060919" />
@@ -8,7 +7,6 @@
       <stop offset="100%" stop-color="#02040a" />
     </linearGradient>
 
-    <!-- Chromatic Cosmic Ribbon Gradients -->
     <linearGradient id="chroma-ribbon-1" x1="0%" y1="50%" x2="100%" y2="50%">
       <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
       <stop offset="20%" stop-color="#00f0ff" stop-opacity="0.9" />
@@ -32,7 +30,6 @@
       <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
     </linearGradient>
 
-    <!-- Gaussian Blurs for Cosmic Glow -->
     <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
       <feGaussianBlur stdDeviation="16" result="blur" />
       <feComposite in="SourceGraphic" in2="blur" operator="over" />
@@ -47,11 +44,9 @@
     </filter>
   </defs>
 
-  <!-- Deep Cosmos Canvas -->
   <rect width="900" height="280" rx="14" fill="url(#bg-space)" />
   <rect width="900" height="280" rx="14" stroke="#1e293b" stroke-width="1.2" />
 
-  <!-- Starfield Layer -->
   <g id="starfield">
     <circle cx="605" cy="109" r="1.7" fill="#ffffff" opacity="0.90" />
     <circle cx="488" cy="34" r="1.7" fill="#ffffff" opacity="0.44" />
@@ -150,37 +145,29 @@
     <circle cx="703" cy="136" r="1.7" fill="#ffffff" opacity="0.67" />
   </g>
 
-  <!-- Ambient Nebular Cloud -->
   <path d="M 0 140 Q 250 80 500 130 T 900 120 L 900 280 L 0 280 Z" fill="url(#glow-beam)" opacity="0.35" filter="url(#deep-glow)" />
 
-  <!-- Major Cosmic Flow Wave 1 (Deep Layer) -->
   <path d="M -50 170 C 180 80, 360 220, 600 130 C 720 85, 800 100, 950 80" 
         fill="none" stroke="url(#chroma-ribbon-2)" stroke-width="64" opacity="0.45" filter="url(#soft-glow)" />
 
-  <!-- Major Cosmic Flow Wave 2 (Middle Layer) -->
   <path d="M -40 160 C 190 70, 380 210, 620 120 C 740 75, 820 95, 950 75" 
         fill="none" stroke="url(#chroma-ribbon-1)" stroke-width="36" opacity="0.85" filter="url(#soft-glow)" />
 
-  <!-- Bright Core Comet Streak (High Definition Wave) -->
   <path d="M -30 155 C 200 65, 400 205, 630 115 C 750 70, 830 90, 950 70" 
         fill="none" stroke="#ffffff" stroke-width="8" opacity="0.9" />
 
   <path d="M -30 155 C 200 65, 400 205, 630 115 C 750 70, 830 90, 950 70" 
         fill="none" stroke="#00f0ff" stroke-width="14" opacity="0.75" filter="url(#flare-blur)" />
 
-  <!-- Epic Light Flare & Starburst Point -->
   <g transform="translate(630, 115)">
-    <!-- Core Glow -->
     <circle cx="0" cy="0" r="42" fill="#00f0ff" opacity="0.4" filter="url(#deep-glow)" />
     <circle cx="0" cy="0" r="18" fill="#ffffff" opacity="0.8" filter="url(#flare-blur)" />
     <circle cx="0" cy="0" r="6" fill="#ffffff" />
     
-    <!-- Starburst Spikes -->
     <polygon points="0,-65 4,-8 65,0 4,8 0,65 -4,8 -65,0 -4,-8" fill="#ffffff" opacity="0.95" />
     <polygon points="0,-45 2,-6 45,0 2,6 0,45 -2,6 -45,0 -2,-6" fill="#38bdf8" opacity="0.7" transform="rotate(45)" />
   </g>
 
-  <!-- Distant Flares -->
 
     <g transform="translate(720, 90)">
       <circle cx="0" cy="0" r="15.0" fill="#38bdf8" opacity="0.3" filter="url(#flare-blur)" />
@@ -207,6 +194,5 @@
       <line x1="0" y1="-12" x2="0" y2="12" stroke="#fbbf24" stroke-width="1" opacity="0.8" />
     </g>
 
-  <!-- Modern Subtle Top Vignette -->
   <rect width="900" height="280" rx="14" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
 </svg>
