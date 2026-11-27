@@ -87,7 +87,7 @@
 
   <!-- Arcade Header -->
   <g transform="translate(26, 27)">
-    <text x="0" y="0" class="game-title">🐍 Snake Game &bull; Autonomous Commit Consumer</text>
+    <text x="0" y="0" class="game-title">🐍 Snake Game &#8226; Autonomous Commit Consumer</text>
     
     <g transform="translate(560, -14)">
       <rect x="0" y="0" width="120" height="23" rx="11.5" fill="#0f172a" stroke="#1e293b" stroke-width="1" />

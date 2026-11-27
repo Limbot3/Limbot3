@@ -135,7 +135,7 @@
   <h2>📅 Interactive Contribution Activity Flow</h2>
   <p><sub>Visualisasi dinamis kontribusi tahunan (Jan – Dec) dengan efek gelombang &amp; radar scanner</sub></p>
   
-  <img src="assets/contribution-animation.svg" width="100%" alt="Annual Contribution Matrix" />
+  <img src="https://github.com/Limbot3/Limbot3/raw/main/assets/contribution-animation.svg" width="100%" alt="Annual Contribution Matrix" />
 </div>
 
 <br/>
@@ -145,7 +145,7 @@
   <h2>🐍 Snake Game &bull; Autonomous Runner</h2>
   <p><sub>Ular otonom memakan riwayat komit dengan jejak neon bercahaya</sub></p>
 
-  <img src="assets/snake-dark.svg" width="100%" alt="Autonomous Snake Game" />
+  <img src="https://github.com/Limbot3/Limbot3/raw/main/assets/snake-dark.svg" width="100%" alt="Autonomous Snake Game" />
 </div>
 
 <br/>

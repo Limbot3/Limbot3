@@ -26,7 +26,6 @@
       50% {
         opacity: 1;
         fill: #38bdf8;
-        filter: drop-shadow(0 0 4px #38bdf8);
       }
     }
     @keyframes radarScan {
@@ -144,7 +143,7 @@
   <!-- Top Metric Bar -->
   <g transform="translate(26, 27)">
     <circle cx="0" cy="-4" r="4.5" fill="#10b981" />
-    <text x="14" y="0" class="title-text">Annual Contribution Matrix &bull; Year-Round Cadence</text>
+    <text x="14" y="0" class="title-text">Annual Contribution Matrix &#8226; Year-Round Cadence</text>
 
     <!-- Interactive Badges -->
     <g transform="translate(525, -14)">
