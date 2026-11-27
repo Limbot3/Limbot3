@@ -29,11 +29,11 @@
 
 <h4 style="color: #38bdf8; margin-top: 6px; font-size: 16px;">Fullstack Engineer &amp; Systems Architect</h4>
 
-<p style="color: #cbd5e1; font-size: 15px; line-height: 1.7;">
+<p align="justify" style="color: #cbd5e1; font-size: 15px; line-height: 1.7; text-align: justify;">
 I am based in <b>Indonesia</b> and deeply passionate about crafting minimalist, high-performance web applications and building efficient automated workflows.
 </p>
 
-<p style="color: #cbd5e1; font-size: 15px; line-height: 1.7;">
+<p align="justify" style="color: #cbd5e1; font-size: 15px; line-height: 1.7; text-align: justify;">
 Currently, I'm focusing my energy on building scalable cloud services, type-safe fullstack platforms, and modular distributed systems. My technical playground revolves around <b>React, TypeScript, Go, Python, Docker,</b> and orchestrating automated pipelines to deliver reliable software.
 </p>
 
@@ -56,15 +56,15 @@ Currently, I'm focusing my energy on building scalable cloud services, type-safe
 <tr>
 <td width="33%" valign="top" style="background-color: #060914; border: 1px solid #1e293b; border-radius: 12px; padding: 18px;">
 <h4 style="color: #38bdf8; margin-top: 0;">⚡ Frontend &amp; Mobile</h4>
-<p><sub>Crafting type-safe, responsive, and fluid interfaces with React, Next.js, Tailwind, and Flutter.</sub></p>
+<p align="justify" style="text-align: justify;"><sub>Crafting type-safe, responsive, and fluid interfaces with React, Next.js, Tailwind, and Flutter.</sub></p>
 </td>
 <td width="33%" valign="top" style="background-color: #060914; border: 1px solid #1e293b; border-radius: 12px; padding: 18px;">
 <h4 style="color: #818cf8; margin-top: 0;">⚙️ Distributed Backends</h4>
-<p><sub>Designing resilient REST &amp; gRPC APIs, concurrent microservices, and databases with Go &amp; Python.</sub></p>
+<p align="justify" style="text-align: justify;"><sub>Designing resilient REST &amp; gRPC APIs, concurrent microservices, and databases with Go &amp; Python.</sub></p>
 </td>
 <td width="33%" valign="top" style="background-color: #060914; border: 1px solid #1e293b; border-radius: 12px; padding: 18px;">
 <h4 style="color: #f43f5e; margin-top: 0;">☁️ Cloud &amp; DevOps</h4>
-<p><sub>Automating infrastructure and continuous delivery pipelines with Docker, Kubernetes, and Linux.</sub></p>
+<p align="justify" style="text-align: justify;"><sub>Automating infrastructure and continuous delivery pipelines with Docker, Kubernetes, and Linux.</sub></p>
 </td>
 </tr>
 </table>
