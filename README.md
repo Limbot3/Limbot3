@@ -14,7 +14,7 @@
         <div align="center">
           <br/>
           <a href="https://github.com/Limbot3">
-            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&background=0A0F1D00&center=true&vCenter=true&width=750&lines=⚡+Fullstack+%26+Mobile+Systems+Architect;⚙️+High-Performance+Backend+%26+Distributed+APIs;☁️+Cloud+Infrastructure+%26+DevOps+Automation;🛡️+Crafting+Scalable%2C+Type-Safe+%26+Resilient+Code" alt="Terminal Interface Typing" />
+            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&center=true&vCenter=true&width=750&lines=Fullstack+and+Mobile+Systems+Architect;High-Performance+Backend+and+Distributed+APIs;DevOps+Platform+and+Cloud+Infrastructure;Scalable+Type-Safe+and+Resilient+Architecture" alt="Terminal Interface Typing" />
           </a>
         </div>
       </td>
@@ -133,9 +133,9 @@
 
 <div align="center">
   <h2>📅 Interactive Contribution Activity Flow</h2>
-  <p><sub>Visualisasi dinamis kontribusi tahunan (Jan – Dec) dengan efek gelombang &amp; radar scanner (Pure CSS Hardware Accelerated)</sub></p>
+  <p><sub>Visualisasi dinamis kontribusi tahunan (Jan – Dec) dengan efek gelombang &amp; radar scanner</sub></p>
   
-  <img src="https://raw.githubusercontent.com/Limbot3/Limbot3/main/assets/contribution-animation.svg" width="100%" alt="Annual Contribution Matrix" />
+  <img src="assets/contribution-animation.svg" width="100%" alt="Annual Contribution Matrix" />
 </div>
 
 <br/>
@@ -145,7 +145,7 @@
   <h2>🐍 Snake Game &bull; Autonomous Runner</h2>
   <p><sub>Ular otonom memakan riwayat komit dengan jejak neon bercahaya</sub></p>
 
-  <img src="https://raw.githubusercontent.com/Limbot3/Limbot3/main/assets/snake-dark.svg" width="100%" alt="Autonomous Snake Game" />
+  <img src="assets/snake-dark.svg" width="100%" alt="Autonomous Snake Game" />
 </div>
 
 <br/>
