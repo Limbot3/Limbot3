@@ -3,12 +3,25 @@
   <!-- ==================== HERO CAPSULE ==================== -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,40:0b1329,100:1e293b&height=220&section=header&text=Limbot3&fontSize=52&fontAlignY=36&fontColor=38bdf8&animation=fadeIn" width="100%" alt="Header Banner" />
 
-  <!-- ==================== TERMINAL GLASSMORPHISM ==================== -->
-  <a href="https://github.com/Limbot3">
-    <img src="assets/typing.svg" width="100%" alt="Terminal Interface" />
-  </a>
+  <!-- ==================== TERMINAL GLASSMORPHISM WITH REAL TYPEWRITER ==================== -->
+  <table width="100%">
+    <tr>
+      <td style="background-color: #0a0f1d; border: 1.5px solid #1e293b; border-radius: 14px; padding: 18px;">
+        <div align="left">
+          <span style="color:#ef4444; font-size:16px;">●</span>&nbsp;<span style="color:#f59e0b; font-size:16px;">●</span>&nbsp;<span style="color:#10b981; font-size:16px;">●</span>
+          &nbsp;&nbsp;&nbsp;<code>limbot3@devbox: ~/workspace (zsh)</code>
+        </div>
+        <div align="center">
+          <br/>
+          <a href="https://github.com/Limbot3">
+            <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2500&pause=1000&color=38BDF8&background=0A0F1D00&center=true&vCenter=true&width=750&lines=⚡+Fullstack+%26+Mobile+Systems+Architect;⚙️+High-Performance+Backend+%26+Distributed+APIs;☁️+Cloud+Infrastructure+%26+DevOps+Automation;🛡️+Crafting+Scalable%2C+Type-Safe+%26+Resilient+Code" alt="Terminal Interface Typing" />
+          </a>
+        </div>
+      </td>
+    </tr>
+  </table>
 
-  <br/><br/>
+  <br/>
 
   <!-- Status Pills -->
   <p align="center">
@@ -115,14 +128,14 @@
   </tr>
 </table>
 
-<!-- ==================== KOTAK-KOTAK HIJAU BULANAN (ANIMATED) ==================== -->
+<!-- ==================== KOTAK-KOTAK HIJAU BULANAN (PURE CSS ANIMATED) ==================== -->
 <br/>
 
 <div align="center">
   <h2>📅 Interactive Contribution Activity Flow</h2>
-  <p><sub>Visualisasi dinamis kontribusi tahunan (Jan – Dec) dengan efek gelombang &amp; radar scanner</sub></p>
+  <p><sub>Visualisasi dinamis kontribusi tahunan (Jan – Dec) dengan efek gelombang &amp; radar scanner (Pure CSS Hardware Accelerated)</sub></p>
   
-  <img src="assets/contribution-animation.svg" width="100%" alt="Annual Contribution Matrix" />
+  <img src="https://raw.githubusercontent.com/Limbot3/Limbot3/main/assets/contribution-animation.svg" width="100%" alt="Annual Contribution Matrix" />
 </div>
 
 <br/>
@@ -132,7 +145,7 @@
   <h2>🐍 Snake Game &bull; Autonomous Runner</h2>
   <p><sub>Ular otonom memakan riwayat komit dengan jejak neon bercahaya</sub></p>
 
-  <img src="assets/snake-dark.svg" width="100%" alt="Autonomous Snake Game" />
+  <img src="https://raw.githubusercontent.com/Limbot3/Limbot3/main/assets/snake-dark.svg" width="100%" alt="Autonomous Snake Game" />
 </div>
 
 <br/>
