@@ -1,4 +1,5 @@
 generate_assets.py
 generate_matrix_css.py
 generate_snake_css.py
+generate_cosmic_assets.py
 .DS_Store
