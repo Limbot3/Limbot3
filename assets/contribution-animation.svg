@@ -15,10 +15,6 @@
       <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.9" />
       <stop offset="100%" stop-color="#10b981" stop-opacity="0" />
     </linearGradient>
-    <filter id="tile-glow-effect" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="2.5" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
-    </filter>
   </defs>
 
   <style>

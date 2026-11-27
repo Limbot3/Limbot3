@@ -34,20 +34,20 @@
 <table>
   <tr>
     <td width="25%" align="center">
-      <b>🚀 Domain</b><br/>
-      <sub>Fullstack &amp; Mobile</sub>
+      <b>🚀 Fullstack &amp; Mobile</b><br/>
+      <sub>Web, iOS &amp; Android</sub>
     </td>
     <td width="25%" align="center">
-      <b>🧠 AI Engineering</b><br/>
-      <sub>LLMs &amp; Pipelines</sub>
+      <b>⚙️ Backend Systems</b><br/>
+      <sub>APIs &amp; Microservices</sub>
     </td>
     <td width="25%" align="center">
       <b>☁️ Cloud Platform</b><br/>
       <sub>Docker, K8s &amp; CI/CD</sub>
     </td>
     <td width="25%" align="center">
-      <b>⚡ Architecture</b><br/>
-      <sub>Scalable &amp; Clean Code</sub>
+      <b>🛡️ Architecture</b><br/>
+      <sub>Clean, Scalable &amp; Resilient</sub>
     </td>
   </tr>
 </table>
@@ -58,10 +58,10 @@
 <table>
   <tr>
     <td width="60%" valign="top">
-      <h3>👨‍💻 About &amp; Engineering Philosophy</h3>
+      <h3>👨‍💻 Engineering Overview</h3>
       <ul>
-        <li>🌐 Mengembangkan aplikasi modern dari <i>frontend</i> hingga <i>cloud infrastructure</i>.</li>
-        <li>🔭 Fokus saat ini: <b>Scalable Microservices</b>, <b>Next-gen UI/UX</b>, dan <b>AI Workflow Automation</b>.</li>
+        <li>🌐 Mengembangkan sistem aplikasi end-to-end dari arsitektur frontend hingga infrastruktur cloud.</li>
+        <li>🔭 Fokus rekayasa: <b>High-Performance Backends</b>, <b>Modular Frontend Architecture</b>, dan <b>Automated DevOps Pipelines</b>.</li>
         <li>🎯 <b>Core Values:</b> <i>Clean Architecture &bull; Automation First &bull; Zero Technical Debt.</i></li>
         <li>💬 Diskusi atau kolaborasi? Email saya di <a href="mailto:limwawin3@gmail.com"><b>limwawin3@gmail.com</b></a>.</li>
       </ul>
@@ -81,33 +81,33 @@
 
 <div align="center">
   <h2>🛠️ Tech Stack &amp; Tooling Matrix</h2>
-  <p><sub>Koleksi teknologi dan instrumen yang digunakan untuk membangun sistem skalabel</sub></p>
+  <p><sub>Koleksi teknologi inti yang digunakan untuk merancang dan membangun sistem perangkat lunak modern</sub></p>
 </div>
 
 <table>
   <tr>
     <td width="50%">
-      <b>🎨 Frontend &amp; Mobile</b><br/><br/>
+      <b>🎨 Frontend &amp; Mobile Engineering</b><br/><br/>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,vue,flutter,dart&perline=5" alt="Frontend & Mobile" />
       </a>
     </td>
     <td width="50%">
-      <b>⚙️ Backend &amp; Cloud Database</b><br/><br/>
+      <b>⚙️ Backend &amp; Core Languages</b><br/><br/>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,go,postgres,mysql,mongodb,redis,supabase&perline=5" alt="Backend" />
+        <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,go,rust,c,java&perline=4" alt="Backend & Languages" />
       </a>
     </td>
   </tr>
   <tr>
     <td width="50%">
-      <b>🧠 Data Science &amp; AI Frameworks</b><br/><br/>
+      <b>🗄️ Databases, ORM &amp; Caching</b><br/><br/>
       <a href="https://skillicons.dev">
-        <img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,scikitlearn,r&perline=5" alt="Data & AI" />
+        <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis,supabase,sqlite,graphql,prisma&perline=4" alt="Databases & Caching" />
       </a>
     </td>
     <td width="50%">
-      <b>☁️ DevOps, Cloud &amp; Containers</b><br/><br/>
+      <b>☁️ DevOps, Cloud &amp; Infrastructure</b><br/><br/>
       <a href="https://skillicons.dev">
         <img src="https://skillicons.dev/icons?i=git,github,docker,kubernetes,linux,bash,aws,gcp,nginx,postman&perline=5" alt="DevOps" />
       </a>
