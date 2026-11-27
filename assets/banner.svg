@@ -1,198 +1,84 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 280" width="100%" height="280" fill="none">
   <defs>
-    <linearGradient id="bg-space" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#02040a" />
-      <stop offset="40%" stop-color="#060919" />
-      <stop offset="80%" stop-color="#080d22" />
-      <stop offset="100%" stop-color="#02040a" />
+    <!-- Deep Obsidian Canvas -->
+    <linearGradient id="aurion-bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#020611" />
+      <stop offset="50%" stop-color="#050c1e" />
+      <stop offset="100%" stop-color="#020611" />
     </linearGradient>
 
-    <linearGradient id="chroma-ribbon-1" x1="0%" y1="50%" x2="100%" y2="50%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
-      <stop offset="20%" stop-color="#00f0ff" stop-opacity="0.9" />
-      <stop offset="45%" stop-color="#818cf8" stop-opacity="0.95" />
-      <stop offset="65%" stop-color="#f43f5e" stop-opacity="0.95" />
-      <stop offset="85%" stop-color="#fbbf24" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#ffffff" stop-opacity="0" />
+    <!-- Aurion Ethereal Cyan & Ice Blue Flares -->
+    <radialGradient id="aurion-beam-core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1" />
+      <stop offset="15%" stop-color="#a5f3fc" stop-opacity="0.95" />
+      <stop offset="35%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="65%" stop-color="#0284c7" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#030712" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="aurion-ambient-left" cx="0%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75" />
+      <stop offset="40%" stop-color="#0369a1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#020611" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="aurion-ambient-right" cx="100%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.75" />
+      <stop offset="40%" stop-color="#0369a1" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#020611" stop-opacity="0" />
+    </radialGradient>
+
+    <linearGradient id="horizontal-waist" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0" />
+      <stop offset="25%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.95" />
+      <stop offset="75%" stop-color="#38bdf8" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#0284c7" stop-opacity="0" />
     </linearGradient>
 
-    <linearGradient id="chroma-ribbon-2" x1="10%" y1="0%" x2="90%" y2="100%">
-      <stop offset="0%" stop-color="#f43f5e" stop-opacity="0.8" />
-      <stop offset="35%" stop-color="#fbbf24" stop-opacity="0.85" />
-      <stop offset="65%" stop-color="#00f0ff" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.75" />
-    </linearGradient>
-
-    <linearGradient id="glow-beam" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00f0ff" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.65" />
-      <stop offset="80%" stop-color="#818cf8" stop-opacity="0.5" />
-      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0" />
-    </linearGradient>
-
-    <filter id="soft-glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="16" result="blur" />
-      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    <!-- Gaussian Blurs for Silky Aurora Glow -->
+    <filter id="aurora-blur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="32" result="blur" />
     </filter>
 
-    <filter id="deep-glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="30" />
+    <filter id="waist-blur" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" />
     </filter>
 
-    <filter id="flare-blur" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="4" />
+    <filter id="core-glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" />
     </filter>
   </defs>
 
-  <rect width="900" height="280" rx="14" fill="url(#bg-space)" />
+  <!-- Base Obsidian Canvas -->
+  <rect width="900" height="280" rx="14" fill="url(#aurion-bg)" />
   <rect width="900" height="280" rx="14" stroke="#1e293b" stroke-width="1.2" />
 
-  <g id="starfield">
-    <circle cx="605" cy="109" r="1.7" fill="#ffffff" opacity="0.90" />
-    <circle cx="488" cy="34" r="1.7" fill="#ffffff" opacity="0.44" />
-    <circle cx="237" cy="157" r="1.3" fill="#ffffff" opacity="0.75" />
-    <circle cx="227" cy="178" r="1.3" fill="#ffffff" opacity="0.35" />
-    <circle cx="207" cy="92" r="0.6" fill="#ffffff" opacity="0.59" />
-    <circle cx="560" cy="197" r="0.8" fill="#ffffff" opacity="0.61" />
-    <circle cx="343" cy="132" r="1.3" fill="#ffffff" opacity="0.57" />
-    <circle cx="74" cy="230" r="1.3" fill="#ffffff" opacity="0.50" />
-    <circle cx="123" cy="178" r="1.0" fill="#ffffff" opacity="0.56" />
-    <circle cx="398" cy="127" r="1.3" fill="#ffffff" opacity="0.35" />
-    <circle cx="772" cy="224" r="0.6" fill="#ffffff" opacity="0.87" />
-    <circle cx="231" cy="58" r="1.0" fill="#ffffff" opacity="0.82" />
-    <circle cx="389" cy="194" r="0.6" fill="#ffffff" opacity="0.47" />
-    <circle cx="849" cy="88" r="0.6" fill="#ffffff" opacity="0.58" />
-    <circle cx="294" cy="43" r="0.8" fill="#ffffff" opacity="0.56" />
-    <circle cx="755" cy="195" r="1.7" fill="#ffffff" opacity="0.61" />
-    <circle cx="520" cy="169" r="0.8" fill="#ffffff" opacity="0.75" />
-    <circle cx="709" cy="13" r="0.6" fill="#ffffff" opacity="0.34" />
-    <circle cx="599" cy="187" r="1.7" fill="#ffffff" opacity="0.91" />
-    <circle cx="462" cy="70" r="1.7" fill="#ffffff" opacity="0.80" />
-    <circle cx="838" cy="245" r="0.8" fill="#ffffff" opacity="0.75" />
-    <circle cx="821" cy="112" r="1.7" fill="#ffffff" opacity="0.59" />
-    <circle cx="152" cy="51" r="0.8" fill="#ffffff" opacity="0.87" />
-    <circle cx="355" cy="202" r="0.6" fill="#ffffff" opacity="0.34" />
-    <circle cx="573" cy="189" r="1.3" fill="#ffffff" opacity="0.34" />
-    <circle cx="295" cy="177" r="0.6" fill="#ffffff" opacity="0.48" />
-    <circle cx="167" cy="138" r="1.3" fill="#ffffff" opacity="0.43" />
-    <circle cx="124" cy="173" r="0.8" fill="#ffffff" opacity="0.36" />
-    <circle cx="678" cy="100" r="0.6" fill="#ffffff" opacity="0.31" />
-    <circle cx="414" cy="244" r="1.7" fill="#ffffff" opacity="0.33" />
-    <circle cx="354" cy="132" r="1.0" fill="#ffffff" opacity="0.61" />
-    <circle cx="210" cy="171" r="1.0" fill="#ffffff" opacity="0.31" />
-    <circle cx="146" cy="157" r="1.0" fill="#ffffff" opacity="0.74" />
-    <circle cx="422" cy="215" r="0.6" fill="#ffffff" opacity="0.78" />
-    <circle cx="538" cy="43" r="0.8" fill="#ffffff" opacity="0.40" />
-    <circle cx="133" cy="84" r="1.0" fill="#ffffff" opacity="0.38" />
-    <circle cx="34" cy="239" r="0.8" fill="#ffffff" opacity="0.74" />
-    <circle cx="713" cy="196" r="1.7" fill="#ffffff" opacity="0.73" />
-    <circle cx="573" cy="116" r="0.8" fill="#ffffff" opacity="0.60" />
-    <circle cx="579" cy="172" r="1.0" fill="#ffffff" opacity="0.74" />
-    <circle cx="762" cy="140" r="0.8" fill="#ffffff" opacity="0.87" />
-    <circle cx="218" cy="242" r="1.0" fill="#ffffff" opacity="0.79" />
-    <circle cx="261" cy="35" r="1.7" fill="#ffffff" opacity="0.95" />
-    <circle cx="767" cy="234" r="1.3" fill="#ffffff" opacity="0.73" />
-    <circle cx="285" cy="114" r="0.6" fill="#ffffff" opacity="0.80" />
-    <circle cx="486" cy="39" r="0.6" fill="#ffffff" opacity="0.57" />
-    <circle cx="472" cy="150" r="1.7" fill="#ffffff" opacity="0.92" />
-    <circle cx="509" cy="41" r="0.6" fill="#ffffff" opacity="0.75" />
-    <circle cx="282" cy="72" r="0.6" fill="#ffffff" opacity="0.93" />
-    <circle cx="827" cy="240" r="1.0" fill="#ffffff" opacity="0.64" />
-    <circle cx="84" cy="85" r="1.3" fill="#ffffff" opacity="0.76" />
-    <circle cx="437" cy="65" r="1.0" fill="#ffffff" opacity="0.30" />
-    <circle cx="375" cy="120" r="1.7" fill="#ffffff" opacity="0.36" />
-    <circle cx="247" cy="108" r="0.8" fill="#ffffff" opacity="0.41" />
-    <circle cx="611" cy="108" r="1.3" fill="#ffffff" opacity="0.39" />
-    <circle cx="203" cy="126" r="0.6" fill="#ffffff" opacity="0.69" />
-    <circle cx="22" cy="180" r="1.7" fill="#ffffff" opacity="0.89" />
-    <circle cx="600" cy="256" r="0.8" fill="#ffffff" opacity="0.37" />
-    <circle cx="51" cy="239" r="1.7" fill="#ffffff" opacity="0.67" />
-    <circle cx="637" cy="56" r="1.0" fill="#ffffff" opacity="0.56" />
-    <circle cx="147" cy="40" r="0.6" fill="#ffffff" opacity="0.49" />
-    <circle cx="553" cy="41" r="0.6" fill="#ffffff" opacity="0.49" />
-    <circle cx="250" cy="94" r="1.3" fill="#ffffff" opacity="0.73" />
-    <circle cx="398" cy="87" r="1.0" fill="#ffffff" opacity="0.75" />
-    <circle cx="255" cy="166" r="1.3" fill="#ffffff" opacity="0.88" />
-    <circle cx="490" cy="134" r="0.8" fill="#ffffff" opacity="0.57" />
-    <circle cx="622" cy="94" r="1.3" fill="#ffffff" opacity="0.59" />
-    <circle cx="208" cy="150" r="0.6" fill="#ffffff" opacity="0.79" />
-    <circle cx="205" cy="178" r="0.6" fill="#ffffff" opacity="0.45" />
-    <circle cx="548" cy="145" r="0.6" fill="#ffffff" opacity="0.79" />
-    <circle cx="394" cy="75" r="1.0" fill="#ffffff" opacity="0.69" />
-    <circle cx="688" cy="199" r="1.3" fill="#ffffff" opacity="0.70" />
-    <circle cx="280" cy="38" r="1.3" fill="#ffffff" opacity="0.74" />
-    <circle cx="103" cy="100" r="0.6" fill="#ffffff" opacity="0.54" />
-    <circle cx="884" cy="32" r="1.3" fill="#ffffff" opacity="0.33" />
-    <circle cx="68" cy="128" r="0.6" fill="#ffffff" opacity="0.55" />
-    <circle cx="510" cy="210" r="0.6" fill="#ffffff" opacity="0.90" />
-    <circle cx="200" cy="225" r="1.3" fill="#ffffff" opacity="0.48" />
-    <circle cx="851" cy="119" r="1.7" fill="#ffffff" opacity="0.48" />
-    <circle cx="416" cy="80" r="0.8" fill="#ffffff" opacity="0.64" />
-    <circle cx="509" cy="162" r="0.8" fill="#ffffff" opacity="0.57" />
-    <circle cx="889" cy="33" r="0.6" fill="#ffffff" opacity="0.64" />
-    <circle cx="740" cy="15" r="1.3" fill="#ffffff" opacity="0.49" />
-    <circle cx="650" cy="200" r="1.7" fill="#ffffff" opacity="0.49" />
-    <circle cx="383" cy="255" r="0.8" fill="#ffffff" opacity="0.80" />
-    <circle cx="798" cy="236" r="0.6" fill="#ffffff" opacity="0.55" />
-    <circle cx="646" cy="256" r="0.6" fill="#ffffff" opacity="0.95" />
-    <circle cx="72" cy="242" r="1.0" fill="#ffffff" opacity="0.83" />
-    <circle cx="860" cy="205" r="0.8" fill="#ffffff" opacity="0.80" />
-    <circle cx="578" cy="129" r="1.7" fill="#ffffff" opacity="0.63" />
-    <circle cx="437" cy="224" r="0.8" fill="#ffffff" opacity="0.89" />
-    <circle cx="65" cy="201" r="1.7" fill="#ffffff" opacity="0.37" />
-    <circle cx="184" cy="140" r="0.8" fill="#ffffff" opacity="0.64" />
-    <circle cx="585" cy="157" r="1.7" fill="#ffffff" opacity="0.67" />
-    <circle cx="703" cy="136" r="1.7" fill="#ffffff" opacity="0.67" />
-  </g>
+  <!-- Ambient Blue Halos on Sides (Hourglass Flare Structure) -->
+  <ellipse cx="0" cy="140" rx="320" ry="180" fill="url(#aurion-ambient-left)" filter="url(#aurora-blur)" />
+  <ellipse cx="900" cy="140" rx="320" ry="180" fill="url(#aurion-ambient-right)" filter="url(#aurora-blur)" />
 
-  <path d="M 0 140 Q 250 80 500 130 T 900 120 L 900 280 L 0 280 Z" fill="url(#glow-beam)" opacity="0.35" filter="url(#deep-glow)" />
+  <!-- Central Ethereal Blue Waist Nebula -->
+  <ellipse cx="450" cy="140" rx="420" ry="48" fill="url(#horizontal-waist)" filter="url(#aurora-blur)" opacity="0.85" />
+  <ellipse cx="450" cy="140" rx="300" ry="24" fill="url(#horizontal-waist)" filter="url(#waist-blur)" opacity="0.95" />
 
-  <path d="M -50 170 C 180 80, 360 220, 600 130 C 720 85, 800 100, 950 80" 
-        fill="none" stroke="url(#chroma-ribbon-2)" stroke-width="64" opacity="0.45" filter="url(#soft-glow)" />
+  <!-- Top Curved Aurora Bow -->
+  <path d="M 0 40 Q 450 140 900 40 L 900 0 L 0 0 Z" fill="#020611" opacity="0.7" />
+  <path d="M -40 20 Q 450 150 940 20" fill="none" stroke="#38bdf8" stroke-width="28" opacity="0.55" filter="url(#aurora-blur)" />
 
-  <path d="M -40 160 C 190 70, 380 210, 620 120 C 740 75, 820 95, 950 75" 
-        fill="none" stroke="url(#chroma-ribbon-1)" stroke-width="36" opacity="0.85" filter="url(#soft-glow)" />
+  <!-- Bottom Curved Aurora Bow -->
+  <path d="M 0 240 Q 450 140 900 240 L 900 280 L 0 280 Z" fill="#020611" opacity="0.7" />
+  <path d="M -40 260 Q 450 130 940 260" fill="none" stroke="#38bdf8" stroke-width="28" opacity="0.55" filter="url(#aurora-blur)" />
 
-  <path d="M -30 155 C 200 65, 400 205, 630 115 C 750 70, 830 90, 950 70" 
-        fill="none" stroke="#ffffff" stroke-width="8" opacity="0.9" />
+  <!-- Brilliant Center Light Horizon Line -->
+  <line x1="80" y1="140" x2="820" y2="140" stroke="url(#horizontal-waist)" stroke-width="3" filter="url(#core-glow)" opacity="0.95" />
+  <line x1="200" y1="140" x2="700" y2="140" stroke="#ffffff" stroke-width="1.5" opacity="0.9" />
 
-  <path d="M -30 155 C 200 65, 400 205, 630 115 C 750 70, 830 90, 950 70" 
-        fill="none" stroke="#00f0ff" stroke-width="14" opacity="0.75" filter="url(#flare-blur)" />
+  <!-- Center Aperture Star Glow -->
+  <circle cx="450" cy="140" r="28" fill="#38bdf8" opacity="0.4" filter="url(#core-glow)" />
+  <circle cx="450" cy="140" r="10" fill="#ffffff" opacity="0.9" filter="url(#core-glow)" />
+  <circle cx="450" cy="140" r="3.5" fill="#ffffff" />
 
-  <g transform="translate(630, 115)">
-    <circle cx="0" cy="0" r="42" fill="#00f0ff" opacity="0.4" filter="url(#deep-glow)" />
-    <circle cx="0" cy="0" r="18" fill="#ffffff" opacity="0.8" filter="url(#flare-blur)" />
-    <circle cx="0" cy="0" r="6" fill="#ffffff" />
-    
-    <polygon points="0,-65 4,-8 65,0 4,8 0,65 -4,8 -65,0 -4,-8" fill="#ffffff" opacity="0.95" />
-    <polygon points="0,-45 2,-6 45,0 2,6 0,45 -2,6 -45,0 -2,-6" fill="#38bdf8" opacity="0.7" transform="rotate(45)" />
-  </g>
-
-
-    <g transform="translate(720, 90)">
-      <circle cx="0" cy="0" r="15.0" fill="#38bdf8" opacity="0.3" filter="url(#flare-blur)" />
-      <circle cx="0" cy="0" r="6" fill="#ffffff" />
-      <line x1="-18" y1="0" x2="18" y2="0" stroke="#38bdf8" stroke-width="1" opacity="0.8" />
-      <line x1="0" y1="-18" x2="0" y2="18" stroke="#38bdf8" stroke-width="1" opacity="0.8" />
-    </g>
-    <g transform="translate(820, 180)">
-      <circle cx="0" cy="0" r="10.0" fill="#818cf8" opacity="0.3" filter="url(#flare-blur)" />
-      <circle cx="0" cy="0" r="4" fill="#ffffff" />
-      <line x1="-12" y1="0" x2="12" y2="0" stroke="#818cf8" stroke-width="1" opacity="0.8" />
-      <line x1="0" y1="-12" x2="0" y2="12" stroke="#818cf8" stroke-width="1" opacity="0.8" />
-    </g>
-    <g transform="translate(120, 220)">
-      <circle cx="0" cy="0" r="12.5" fill="#f43f5e" opacity="0.3" filter="url(#flare-blur)" />
-      <circle cx="0" cy="0" r="5" fill="#ffffff" />
-      <line x1="-15" y1="0" x2="15" y2="0" stroke="#f43f5e" stroke-width="1" opacity="0.8" />
-      <line x1="0" y1="-15" x2="0" y2="15" stroke="#f43f5e" stroke-width="1" opacity="0.8" />
-    </g>
-    <g transform="translate(250, 40)">
-      <circle cx="0" cy="0" r="10.0" fill="#fbbf24" opacity="0.3" filter="url(#flare-blur)" />
-      <circle cx="0" cy="0" r="4" fill="#ffffff" />
-      <line x1="-12" y1="0" x2="12" y2="0" stroke="#fbbf24" stroke-width="1" opacity="0.8" />
-      <line x1="0" y1="-12" x2="0" y2="12" stroke="#fbbf24" stroke-width="1" opacity="0.8" />
-    </g>
-
-  <rect width="900" height="280" rx="14" fill="none" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <!-- Modern Subtle Border Highlight -->
+  <rect width="900" height="280" rx="14" fill="none" stroke="rgba(56, 189, 248, 0.15)" stroke-width="1" />
 </svg>
