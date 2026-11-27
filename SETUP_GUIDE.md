@@ -44,3 +44,12 @@ Supaya animasi ular (Snake Game) bisa otomatis menggambar grafik commit Anda:
 Jika Anda ingin widget Spotify menampilkan lagu yang benar-benar sedang Anda dengarkan:
 1. Gunakan service gratis seperti [spotify-github-readme](https://github.com/kittinan/spotify-github-readme) atau [novatorem](https://github.com/novatorem/novatorem).
 2. Anda cukup deploy template gratisnya ke Vercel dan menautkan akun Spotify Anda.
+
+
+---
+
+### 🏆 Panduan Koleksi GitHub Achievements
+- **Pull Shark 🦈**: Diperoleh dari Pull Request yang berhasil di-merge.
+- **YOLO 🕶️**: Diperoleh saat melakukan merge PR tanpa menunggu code review.
+- **Pair Extraordinaire 👥**: Diperoleh dengan membuat commit berkolaborasi (Co-authored-by).
+- **Quickdraw ⚡**: Diperoleh saat menutup issue dalam waktu kurang dari 5 menit.
